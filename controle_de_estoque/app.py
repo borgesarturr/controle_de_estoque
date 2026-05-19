@@ -9,7 +9,7 @@ import sqlite3
 
 def cadastrar_produto():
 
-    nome = entry_nome.get().strip()
+    produto = entry_produto.get().strip()
 
     try:
         quantidade = int(entry_quantidade.get())
@@ -22,10 +22,10 @@ def cadastrar_produto():
         )
         return
 
-    if nome == "":
+    if produto == "":
         messagebox.showwarning(
             "Atenção",
-            "Digite o nome do produto."
+            "Digite o produto do produto."
         )
         return
 
@@ -34,9 +34,9 @@ def cadastrar_produto():
     cursor = conexao.cursor()
 
     cursor.execute("""
-    INSERT INTO produtos (nome, quantidade, preco)
+    INSERT INTO produtos (produto, quantidade, preco)
     VALUES (?, ?, ?)
-    """, (nome, quantidade, preco))
+    """, (produto, quantidade, preco))
 
     conexao.commit()
 
@@ -58,7 +58,7 @@ def cadastrar_produto():
 
 def limpar_campos():
 
-    entry_nome.delete(0, tk.END)
+    entry_produto.delete(0, tk.END)
     entry_quantidade.delete(0, tk.END)
     entry_preco.delete(0, tk.END)
 
@@ -107,13 +107,13 @@ janela.geometry("500x300")
 # LABELS
 # -------------------------------
 
-label_nome = tk.Label(janela, text="Nome")
+label_produto = tk.Label(janela, text="produto")
 
-label_nome.pack()
+label_produto.pack()
 
-entry_nome = tk.Entry(janela, width=40)
+entry_produto = tk.Entry(janela, width=40)
 
-entry_nome.pack()
+entry_produto.pack()
 
 
 label_quantidade = tk.Label(
@@ -165,7 +165,7 @@ botao_cadastrar.pack(pady=20)
 
 colunas = (
     "ID",
-    "Nome",
+    "produto",
     "Quantidade",
     "Preço"
 )
