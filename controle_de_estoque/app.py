@@ -6,9 +6,7 @@ from datetime import datetime
 id_produto = None
 
 
-# -------------------------------
 # FUNÇÃO CADASTRAR PRODUTO
-# -------------------------------
 
 def cadastrar_produto():
 
@@ -59,9 +57,7 @@ def cadastrar_produto():
 
     limpar_campos()
 
-# -------------------------------
 # SELECIONAR PRODUTO
-# -------------------------------
 
 def selecionar_produto(event):
 
@@ -88,9 +84,7 @@ def selecionar_produto(event):
         entry_preco.insert(0, valores[3])
 
     
-# -------------------------------
 # ATUALIZAR PRODUTO
-# -------------------------------
 
 def atualizar_produto():
 
@@ -173,9 +167,7 @@ def atualizar_produto():
 
     limpar_campos()
 
-# -------------------------------
 # EXCLUIR PRODUTOS
-# -------------------------------
 
 def excluir_produto():
 
@@ -236,9 +228,7 @@ def excluir_produto():
 
         limpar_campos()
 
-# -------------------------------
 # LIMPAR CAMPOS
-# -------------------------------
 
 def limpar_campos():
 
@@ -246,9 +236,7 @@ def limpar_campos():
     entry_quantidade.delete(0, tk.END)
     entry_preco.delete(0, tk.END)
 
-# -------------------------------
 # LISTAR PRODUTOS
-# -------------------------------
 
 def listar_produtos():
 
@@ -275,9 +263,7 @@ def listar_produtos():
 
     conexao.close()
     
-# -------------------------------
 # REGISTRAR LOG
-# -------------------------------
 
 def registrar_log(mensagem):
 
@@ -304,9 +290,7 @@ def registrar_log(mensagem):
         )    
 
 
-# -------------------------------
 # JANELA PRINCIPAL
-# -------------------------------
 
 janela = tk.Tk()
 
@@ -315,9 +299,7 @@ janela.title("Controle de Estoque")
 janela.geometry("500x300")
 
 
-# -------------------------------
 # LABELS
-# -------------------------------
 
 label_nome = tk.Label(janela, text="Nome")
 
@@ -358,9 +340,7 @@ entry_preco = tk.Entry(
 entry_preco.pack()
 
 
-# -------------------------------
 # BOTÃO
-# -------------------------------
 
 botao_cadastrar = tk.Button(
     janela,
@@ -387,9 +367,7 @@ botao_excluir = tk.Button(
 botao_excluir.pack(pady=10)
 
 
-# -------------------------------
 # TABELA
-# -------------------------------
 
 colunas = (
     "ID",

@@ -1,0 +1,93 @@
+[23/05/2026 16:36:35]
+
+        PRODUTO EXCLUÍDO
+
+        ID: 31
+        Nome: Camisa Beje
+        
+----------------------------------------
+[23/05/2026 16:36:42]
+
+        PRODUTO EXCLUÍDO
+
+        ID: 1
+        Nome: Camisa Preta
+        
+----------------------------------------
+[23/05/2026 16:36:42]
+
+        PRODUTO EXCLUÍDO
+
+        ID: 29
+        Nome: Camisa Branca
+        
+----------------------------------------
+[23/05/2026 16:36:42]
+
+        PRODUTO EXCLUÍDO
+
+        ID: 30
+        Nome: Camisa Amarela
+        
+----------------------------------------
+[23/05/2026 16:38:32]
+
+    PRODUTO CADASTRADO
+
+    Nome: Camisa Lilás
+    Quantidade: 20
+    Preço: 29.9
+    
+----------------------------------------
+[23/05/2026 16:40:52]
+
+    PRODUTO CADASTRADO
+
+    Nome: Camisa Preta
+    Quantidade: 30
+    Preço: 89.99
+    
+----------------------------------------
+[23/05/2026 16:41:10]
+
+    PRODUTO CADASTRADO
+
+    Nome: Camisa Laranja
+    Quantidade: 10
+    Preço: 59.99
+    
+----------------------------------------
+[23/05/2026 19:19:49]
+
+    PRODUTO CADASTRADO
+
+    Nome: Camiseta Básica P/ Academia
+    Quantidade: 10
+    Preço: 59.0
+    
+----------------------------------------
+[24/05/2026 13:08:45]
+
+    PRODUTO CADASTRADO
+
+    Nome: Camisa Azul
+    Quantidade: 10
+    Preço: 59.99
+    
+----------------------------------------
+[24/05/2026 13:08:55]
+
+        PRODUTO EXCLUÍDO
+
+        ID: 34
+        Nome: Camisa Laranja
+        
+----------------------------------------
+[24/05/2026 13:08:55]
+
+        PRODUTO EXCLUÍDO
+
+        ID: 36
+        Nome: Camisa Azul
+        
+----------------------------------------
