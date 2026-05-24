@@ -91,3 +91,12 @@
         Nome: Camisa Azul
         
 ----------------------------------------
+[24/05/2026 13:25:31]
+
+    PRODUTO CADASTRADO
+
+    Nome: Camisa Cinza
+    Quantidade: 23
+    Preço: 150.0
+    
+----------------------------------------
